@@ -248,6 +248,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
 }
 
+
 .skils {
     padding: 50px 0 50px;
     background-color: rgb(241, 241, 241);
@@ -407,7 +408,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid transparent;
 }
 
-
 .languages {
     padding: 50px 0 50px 70px;
     background-color: rgb(119 129 147);
@@ -523,4 +523,231 @@ h1, h2, h3, h4, h5, h6 {
 .contacts__data {
     text-transform: uppercase;
     color: var(--color-white);
+}
+
+@media(max-width:1300px) {
+    .about__inner {
+        display: block;
+    }
+
+    .about__img {
+        margin-bottom: var(--main-gap);
+    }
+}
+
+
+@media(max-width:1000px) {
+    .header__btn {
+        display: block;
+    }
+    .header-lists {
+        right: 0;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        width: 300px;
+        height: 100vh;
+        background-color: #1c1c1c;
+        position: absolute;
+        top: 78px;
+        right: 0;
+        padding: 20px 0;
+        margin-right: 0;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        z-index: 10;
+        border-radius: 5px;
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+    .header-list__item {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* background-color: red; */
+        margin-bottom: 20px;
+    }
+
+    .header__list-link {
+        display: flex;
+        padding: 20px 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-list__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+
+
+    .code__javascript:hover {
+        transform: none;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    .skils__item:nth-child(1) {
+        max-width: 500px;
+    }
+
+    .skils__item:nth-child(2) {
+        max-width: 400px;
+    }
+
+    .skils__item:nth-child(5) {
+        max-width: 600px;
+    }
+
+    .skils__item:nth-child(6) {
+        max-width: 600px;
+    }
+
+    .skils__item:nth-child(7) {
+        max-width: 400px;
+    }
+
+    .code__javascript {
+        height: 310px;
+    }
+
+    code {
+        position: absolute;
+        left: 0;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .work__box {
+        height: 200px;
+        grid-column: 2 span;
+    }
+
+    .work__box:hover {
+        transform: none;
+        border: none;
+    }
+
+    .work {
+        padding: 50px 0;
+    }
+    .contacts {
+        display: block;
+    }
+    .contacts__icons {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .contacts__data {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:600px) {
+    .about {
+        padding-top: 25px;
+    }
+
+    .about__me-name {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .about__me-profession {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .about__inner {
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+@media(max-width:500px) {
+    code {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .code__title {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .code__javascript {
+        height: 250px;
+    }
+
+    .languages {
+        padding: 50px 0 50px 20px;
+    }
+}
+
+@media(max-width:480px) {
+    .about {
+        padding-bottom: 25px;
+    }
+
+    .about__img {
+        margin-left: 0;
+    }
+
+    .about__me {
+        margin-left: 0;
+    }
+
+    .about__me-name {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .about__me-1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .about__me-profession {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .skils__item:nth-child(1) {
+        max-width: 250px;
+    }
+
+    .skils__item:nth-child(2) {
+        max-width: 150px;
+    }
+
+    .skils__item:nth-child(3) {
+        max-width: 100px;
+    }
+
+    .skils__item:nth-child(4) {
+        max-width: 200px;
+    }
+
+    .skils__item:nth-child(5) {
+        max-width: 350px;
+    }
+
+    .skils__item:nth-child(6) {
+        max-width: 350px;
+    }
+
+    .skils__item:nth-child(7) {
+        max-width: 150px;
+    }
+
+    
 }
