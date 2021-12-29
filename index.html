@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__img">
+                    <img src="./img/s.png" alt="Иконка С">
+                </a>
+                <button class="header__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="header-lists list-reset">
+                    <li class="header-list__item">
+                        <a class="header__list-link" href="#about">About me</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a class="header__list-link" href="#skils">Skils</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a class="header__list-link" href="#code">Code Example</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a class="header__list-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+
+                <div class="about__inner">
+                    <div class="about__img">
+                        <img src="./img/my-photo.jpg" alt="Фото автора сайта">
+                    </div>
+                    <div class="about__me">
+                        <h1 class="about__me-name">Sergey Kornasenko</h1>
+                        <p class="about__me-1">
+                            Hello, I'm 28 years old and I live in Kazakhstan</p>
+                        <p class="about__me-2">All my life I've been trying to find a certain profession</p>
+                        <p class="about__me-3">I was a designer, worked in a factory, and now I'm a very hard working
+                            person who wants to become a specialist</p>
+                    </div>
+                </div>
+                <p class="about__me-profession">front-end-developer</p>
+            </div>
+        </section>
+
+        <section class="skils" id="skils">
+            <div class="container">
+                <h2 class="skils__title">SKils</h2>
+                <ul class="skils__list list-reset">
+                    <li class="skils__item">HTML5</li>
+                    <li class="skils__item">Css</li>
+                    <li class="skils__item">Gulp</li>
+                    <li class="skils__item">Git / GitHub</li>
+                    <li class="skils__item">Photoshop</li>
+                    <li class="skils__item">Figma</li>
+                    <li class="skils__item">BEM</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="code" id="code">
+            <div class="container">
+                <div class="code__javascript">
+                    <h2 class="code__title">Code Example</h2>
+                    <pre class="code-wars">
+                    <code>
+    <span class="code__blue">function</span> <span class="code__green">even_or_odd</span>(<span class="code__orange"><i>number</i></span>) {
+        <span class="code__red">if</span> (number <span class="code__red">%</span> <span class="code__purple">2</span> <span class="code__red">==</span> <span class="code__purple">0</span>) {
+          <span class="code__red">return</span> <span class="code__yellow">'Even'</span>;
+        } <span class="code__red">celse if</span> (number <span class="code__red">%</span> <span class="code__purple">2</span> <span class="code__red">!==</span> <span class="code__purple">0</span> {
+          <span class="code__red">return</span> <span class="code__yellow">'Odd'</span>;
+        }
+    }
+                    </code>
+                </pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="projects">
+            <div class="container">
+                <h2 class="work__title">Projects</h2>
+                <div class="work__inner">
+                    <div class="work__box">
+                        <a class="work__link" href="https://sergk1993.github.io/Sturtup/dist/" target="_blank">
+                            <img class="work__img" src="./img/work-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__box">
+                        <a class="work__link" href="https://sergk1993.github.io/Fast/dist/index.html" target="_blank">
+                            <img class="work__img" src="./img/work-2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__box">
+                        <a class="work__link" href="https://sergk1993.github.io/Tajam/dist/" target="_blank">
+                            <img class="work__img" src="./img/work-3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__box">
+                        <a class="work__link" href="https://sergk1993.github.io/Ojjo/dist/" target="_blank">
+                            <img class="work__img" src="./img/work-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="languages">
+            <div class="container">
+                <h2 class="languages__title">languages</h2>
+                <div class="languages__box">
+                    <div class="languages__box-russian">
+                        <h3 class="languages__text">English</h3>
+                        <p class="languages__level">A1</p>
+                    </div>
+                    <div class="languages__box-english">
+                        <h3 class="languages__text">Russian</h3>
+                        <p class="languages__level">Native</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container contacts-container">
+            <h2 class="contacts__title">
+                Contacts
+            </h2>
+            <div class="contacts">
+                <p class="contacts__data">© 2021 by sergey kornasenko</p>
+                <div class="contacts__icons">
+                    <div class="contacts__box">
+                        <a href="https://github.com/sergk1993">
+                            <img src="./img/git.png" alt="Гит Хаб">
+                        </a>
+                    </div>
+                    <div class="contacts__box">
+                        <a href="https://t.me/Sergo_kor">
+                            <img src="./img/telegram.png" alt="Телеграмм">
+                        </a>
+                    </div>
+                    <div class="contacts__box contacts__box-svg ">
+                        <a href="https://rs.school/js/">
+                            <img src="./img/rs_school.svg" alt="Rs school">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
