@@ -302,3 +302,64 @@ h1, h2, h3, h4, h5, h6 {
 .skils__item:nth-child(7) {
     max-width: 500px;
 }
+
+.code {
+    padding: 50px 0;
+    background-color: #576168;
+    overflow-x: hidden;
+}
+
+.code__title {
+    font-family: 'Geometria', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(29, 149, 185);
+    text-transform: uppercase;
+
+}
+
+.code__javascript {
+    padding: 30px 20px 0 20px;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    transition: all 1s ease-in-out;
+}
+
+.code__javascript:hover {
+    transform: scale(1.01);
+}
+
+.code-wars {
+    margin-left: 40px;
+    margin-top: 0;
+    font-family: 'Geometria', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: rgb(172, 167, 167);
+}
+
+.code__blue {
+    color: rgb(29, 149, 185);
+}
+
+.code__green {
+    color: rgb(31, 143, 55);
+}
+
+.code__orange {
+    color: rgb(167 112 41);
+}
+
+.code__red {
+    color: rgb(192, 30, 30);
+}
+
+.code__purple {
+    color: rgb(139, 72, 136);
+}
+
+.code__yellow {
+    color: rgb(167 146 3);
+}
