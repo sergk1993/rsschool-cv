@@ -406,3 +406,60 @@ h1, h2, h3, h4, h5, h6 {
 
     border: 1px solid transparent;
 }
+
+
+.languages {
+    padding: 50px 0 50px 70px;
+    background-color: rgb(119 129 147);
+}
+
+
+
+.languages__title {
+    text-transform: uppercase;
+    font-family: 'Geometria', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.languages__box {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-family: 'Geometria', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+
+
+.languages__box-russian {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.languages__box-english {
+    text-align: center;
+}
+
+
+.languages__text {
+    margin-bottom: 20px;
+}
+
+.languages__level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173 173 189);
+    transition: 0.3s all ease-in-out;
+}
+
+.languages__level:hover {
+    background-color: rgb(0, 197, 171);
+}
